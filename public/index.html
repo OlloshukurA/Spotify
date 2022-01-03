@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header--navbar navbar">
+                <div class="nav--search">
+                   <div class="nav--arrows">
+                    <i class="fas fa-chevron-left left"></i>
+                    <i class="fas fa-chevron-right right"></i>
+                   </div>
+                    <div class="nav--search-form">
+                        <input type="text" placeholder="Search" class="nav--input">
+                    </div>
+                </div>
+
+                <div class="nav--login">
+                    <span class="login--icon"><i class="far fa-user-circle"></i>Olloshukur</span>
+                    <i class="fas fa-chevron-down chevron--down">
+                        <ul class="chevron--list">
+                            <li class="chevron--list-item"><a href="#" class="chevron--link">Private Session</a></li>
+                            <li class="chevron--list-item"><a href="#" class="chevron--link">Account</a></li>
+                            <li class="chevron--list-item"><a href="#" class="chevron--link">Settings</a></li>
+                            <li class="chevron--list-item"><a href="#" class="chevron--link">Log Out</a></li>
+                        </ul>
+                    </i>
+                </div>
+            </nav>
+
+            <aside class="header--left">
+                <div class="left--dots">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="left--choices">
+                    <div class="choice--home">
+                       <span class="icon--box"><i class="fas fa-home home--icon" ></i></span>
+                       <span class="home--title">Home</span>
+                    </div>
+
+                    <div class="choice--browse">
+                        <span class="icon--box"><i class="far fa-window-restore browse--icon"></i></span>
+                        <span class="browse--title">Browse</span>
+                    </div>
+
+                    <div class="choice--radio">
+                        <span class="icon--box"><i class="fas fa-broadcast-tower radio--icon"></i></span>
+                        <span class="radio--title">Radio</span>
+                    </div>
+                </div>
+
+                <ul class="left--list">
+                    <li class="list--item"><a href="#" class="list--link">YOUR LIBRARY</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Made For You</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Recently Played</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Liked Songs</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Albums</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Artists</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Podcasts</a></li>
+                    <li class="list--item"><a href="#" class="list--link">PLAYLISTS</a></li>
+                    <li class="list--item"><a href="#" class="list--link">Today's Top Hits</a></li>
+                </ul>
+
+                <div class="left--plus">
+                    <span class="icon--box"><i class="fas fa-plus-circle plus"></i></span>
+                    <span class="plus--title">New Playlist</span>
+                </div>
+            </aside>
+            <aside class="header--right">
+                
+                <div class="right--content">
+                    <h3 class="content--title">See what are your friends playing</h3>
+                    <button class="content--btn">FIND FRIENDS</button>
+                </div>
+            </aside>
+
+            <footer class="header--bottom">
+                <div class="bottom--content">
+                    <div class="content--left">
+                        <img src="./img/enemy.jpg" alt="" class="left--img">
+                        <div class="content--left--titles">
+                            <p class="title--first">Enemy (with JID) ARCANE <i class="far fa-heart"></i></p>
+                            <p class="title--second">Imagine Dragons && JID</p>
+                        </div>
+                    </div>
+
+                    <div class="content--middle">
+
+                        <div class="middle--icons">
+                            <i class="fas fa-random"></i>
+                            <i class="fas fa-step-backward"></i>
+                            <i class="far fa-play-circle"></i>
+                            <i class="fas fa-step-forward"></i>
+                            <i class="fas fa-redo-alt"></i>
+                        </div>
+
+                        <div class="middle--bottom">
+                            <span class="bottom--starting-time">1:04</span>
+                            <div class="bottom--line"></div>
+                            <span class="bottom--ending-time">2:50</span>
+                        </div>
+                    </div>
+
+                    <div class="right--bottom">
+                        <i class="fab fa-playstation"></i>
+                        <i class="fas fa-tablet-alt"></i>
+                        <i class="fas fa-volume-up volume"></i>
+                        <div class="right--line"></div>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+            </footer>
+        </header>
+
+        <section class="main--content">
+            <h1 class="main--header" id="home">Home</h1>
+            <p class="main--shortCut">Shortcuts</p>
+
+            <div class="main--music--albums">
+                <div class="music--album">
+                    <img src="./img/main--content/jasonDerulo.jpg" alt="" class="album--img">
+                    <p class="album--author">Jason Derula radio</p>
+                    <p id="album--followers">43,170 FOLLOWERS</p>
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content//mega.jpg" alt="" class="album--img">
+                    <p class="album--author">Mega Hit Mixs</p>
+                    <p id="album--followers">A mega mix of 75 favourites from the last few years! <br>
+                    5,892,495 FOLLOWERS</p>
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content/justin.jpg" alt="" class="album--img justin">
+                    <p class="album--author justin--text">Jason Bieber</p>
+                    <!-- <p id="album--followers">43,170 FOLLOWERS</p> -->
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content/jasonDerulo.jpg" alt="" class="album--img jason">
+                    <p class="album--author jason--text">Jason Derula</p>
+                    <p id="album--followers">5,170, 101 FOLLOWERS</p>
+                </div>
+            </div>
+
+            <div class="main--music--albums">
+                <div class="music--album">
+                    <img src="./img/main--content/jasonDerulo.jpg" alt="" class="album--img">
+                    <p class="album--author">Jason Derula radio</p>
+                    <p id="album--followers">43,170 FOLLOWERS</p>
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content//mega.jpg" alt="" class="album--img">
+                    <p class="album--author">Mega Hit Mixs</p>
+                    <p id="album--followers">A mega mix of 75 favourites from the last few years! <br>
+                    5,892,495 FOLLOWERS</p>
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content/justin.jpg" alt="" class="album--img justin">
+                    <p class="album--author justin--text">Jason Bieber</p>
+                    <!-- <p id="album--followers">43,170 FOLLOWERS</p> -->
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content/jasonDerulo.jpg" alt="" class="album--img jason">
+                    <p class="album--author jason--text">Jason Derula</p>
+                    <p id="album--followers">5,170, 101 FOLLOWERS</p>
+                </div>
+            </div>
+
+            <div class="main--music--albums">
+                <div class="music--album">
+                    <img src="./img/main--content/jasonDerulo.jpg" alt="" class="album--img">
+                    <p class="album--author">Jason Derula radio</p>
+                    <p id="album--followers">43,170 FOLLOWERS</p>
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content//mega.jpg" alt="" class="album--img">
+                    <p class="album--author">Mega Hit Mixs</p>
+                    <p id="album--followers">A mega mix of 75 favourites from the last few years! <br>
+                    5,892,495 FOLLOWERS</p>
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content/justin.jpg" alt="" class="album--img justin">
+                    <p class="album--author justin--text">Jason Bieber</p>
+                    <!-- <p id="album--followers">43,170 FOLLOWERS</p> -->
+                </div>
+
+                <div class="music--album">
+                    <img src="./img/main--content/jasonDerulo.jpg" alt="" class="album--img jason">
+                    <p class="album--author jason--text">Jason Derula</p>
+                    <p id="album--followers">5,170, 101 FOLLOWERS</p>
+                </div>
+            </div>
+
+            
+        </section>
+    </div>
+</body>
+</html>
